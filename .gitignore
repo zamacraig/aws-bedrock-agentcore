@@ -1,0 +1,114 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+.eggs/
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# =========================
+# AWS
+# =========================
+.aws/
+.aws-sam/
+samconfig.toml
+
+# Local AWS credential files
+credentials
+config
+
+# =========================
+# Environment Variables
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+
+# =========================
+# IDEs
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Testing
+# =========================
+.pytest_cache/
+coverage.xml
+.coverage.*
+
+# =========================
+# Build / Distribution
+# =========================
+build/
+dist/
+*.zip
+
+# =========================
+# Bedrock / Agent Output
+# =========================
+tmp/
+temp/
+cache/
+output/
+outputs/
+artifacts/
+
+# Generated agent traces
+traces/
+agent_logs/
+
+# Local data
+data/
+datasets/
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Terraform (if used)
+# =========================
+.terraform/
+*.tfstate
+*.tfstate.*
+terraform.tfvars
+.terraform.lock.hcl
+
+# =========================
+# Secrets
+# =========================
+secrets/
+private/
+*.pem
+*.key
+*.crt
